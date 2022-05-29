@@ -2,7 +2,6 @@ import React, { useContext } from "react";
 import { MyContext } from "../../app/App";
 import { Heart } from "../Heart";
 import "./Content.scss";
-import InfiniteScroll from "react-infinite-scroll-component";
 
 export const Content = ({ cats = [] }) => {
   const { favoriteCats, setFavoriteCats } = useContext(MyContext);
